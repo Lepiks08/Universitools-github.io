@@ -1,0 +1,131 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(bg.webp); 
+    color: #333333; /* Dark gray text */
+    padding-bottom: 60px;
+}
+
+/* Header Section */
+header {
+    background-image:url(bg\ 2.jpg); 
+    color: #fff7f7; /* Dark text */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px; /* Set the width of the logo */
+    height: auto; /* Maintain the aspect ratio of the logo */
+}
+
+header .nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+header .nav-right {
+    margin-left: auto;
+}
+
+header .nav-links a {
+    color: #333333; /* Dark text for links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+header .nav-links a:hover {
+    text-decoration: underline;
+    color: #FF9F80; /* Dark Peach on hover */
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+/* Section background color for "background-story" */
+#background-story {
+    background-color: #333; /* Dark background for the section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Headings in background story */
+#background-story h1 {
+    color: #FF5733; /* Peach color for main heading */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#background-story h2 {
+    color: #FFB86C; /* Lighter peach color for sub-headings */
+}
+
+/* Paragraph text */
+#background-story p {
+    color: white; /* White color for paragraph text */
+}
+
+/* List styling for "Why Choose Us?" section */
+#background-story ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#background-story ul li {
+    margin-bottom: 10px;
+    color: white; /* White color for list items */
+}
+
+
+/* Button Styling */
+.btn {
+    background-color: #FF5733; /* Button background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #C70039; /* Hover effect color */
+}
+
+
+footer {
+    background-image:url(bg\ footer.jpg); 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}

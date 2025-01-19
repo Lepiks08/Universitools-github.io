@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website - Apply Now</title>
+    <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">UniversiTools</div>
+        <div class="nav-links">
+            <div class="nav-left">
+                <a href="home.html" class="btn">Home</a>
+                <a href="shop.html" class="btn">Shop</a>
+                <a href="employee.html" class="btn">Employee</a>
+            </div>
+            <div class="nav-right">
+                <a href="cart.html" class="btn">Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Apply Now Tab Content -->
+    <main>
+        <div id="apply">
+            <h1>Apply Now</h1>
+            <p>Fill out the form below to apply to the university and start your journey towards academic excellence.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 University Website</p>
+    </footer>
+
+    <script>
+        let cart = [];
+
+        // Update cart count in the navbar
+        function updateCartCount() {
+            document.getElementById('cart-count').innerText = cart.length;
+        }
+
+        // Adding some test cart functionality
+        updateCartCount();  // Initialize cart count on load
+    </script>
+</body>
+</html>
